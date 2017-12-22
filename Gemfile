@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 ruby "2.3.5"
 
+gem 'trix'
+gem 'aws-sdk-rails'
+gem 'devise'
 gem 'rails_12factor', group: :production
 gem 'pg'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -47,4 +50,10 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'sqlite3'
+  gem 'rails_db'
+  gem 'awesome_print'
+  gem 'pry-rails'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'meta_request'
 end
